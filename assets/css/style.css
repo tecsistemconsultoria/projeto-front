@@ -9,7 +9,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-h1 {
+h1, #section11 h2 {
     color: #002D7C;
     font-size: 0.9rem;
     font-weight: 600;
@@ -64,7 +64,7 @@ main {
 }
 
 /* --------------------- Seção 03 ------------ */
-#section03, #section05 {
+#section03, #section05, #section11 {
     margin-top: 90px;
 }
 
@@ -73,10 +73,10 @@ main {
 }
 
 .small-box .box {
-    height: 150px;
+    height: 180px;
 }
 
-.small-box h2 {
+.small-box h2, #section11 h3 {
     color: #000;
     font-size: 1.2rem;
     margin: 0;
@@ -125,7 +125,7 @@ main {
 }
 
 /* -------------- Seção 05 ---------- */
-#section05 .row {
+#section05 .row, #section11 .row {
     display: flex;
     align-items: center;
 }
@@ -134,8 +134,24 @@ main {
     margin-right: 30px;
 }
 
-#ads05 {
+#ads05, #ads11 {
     background: #B1CDFF;
     height: 400px;
     border-radius: 10px;
+}
+
+/* -------------- Seção 11 --------------- */
+.title {
+    background: #002D7C;
+    margin-left: 7%;
+    margin-bottom: 30px;
+}
+
+.title h1{
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: bolder;
+    background: #fffCE5;
+    width: fit-content;
+    padding-right: 30px;
 }
