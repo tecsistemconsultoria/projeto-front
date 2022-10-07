@@ -27,6 +27,10 @@ main {
     padding-bottom: 30px;
 }
 
+.container {
+    margin: 0px auto;
+}
+
 /* ---------------------- Seção 01 ------------------ */
 #section01 {
     width: 100%;
@@ -261,6 +265,12 @@ main {
 }
 
 /* -------------- Seção 11 --------------- */
+#section11 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title {
     background: #002D7C;
     margin-left: 7%;
@@ -278,7 +288,7 @@ main {
 
 #section11 .btn {
     font-size: 0.9rem;
-    margin-left: 400px;
+    margin: 0px auto;
 }
 
 #section11 .btn i {
@@ -302,6 +312,7 @@ footer .container {
 #p1 {
     margin: 40px 0px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -316,6 +327,10 @@ footer .container {
     font-weight: bolder;
     margin-left: 10px;
     font-size: 1.5rem;
+}
+
+footer .btn {
+    width: 250px;
 }
 
 .btn {
