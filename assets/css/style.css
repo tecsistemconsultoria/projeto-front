@@ -19,6 +19,10 @@ h2 {
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+}
+
 main {
     padding-bottom: 30px;
 }
@@ -64,7 +68,7 @@ main {
 }
 
 /* --------------------- Seção 03 ------------ */
-#section03, #section05, #section08, #section11 {
+#section03, #section05, #section06, #section08, #section11 {
     margin-top: 90px;
 }
 
@@ -91,6 +95,7 @@ main {
 }
 
 .text p {
+    color: #000;
     opacity: 0.7;
 }
 
@@ -142,6 +147,37 @@ main {
     border-radius: 10px;
 }
 
+/* ----------------- Seção 06 ------------------- */
+#section06 .box-content .main-box {
+    height: 400px;
+}
+
+#section06 .main-box .text h2{
+    color: #000;
+    font-weight: bold;
+}
+
+#section06 .text h2 {
+    margin: 10px 0px 0px;
+    color: #002D7C;
+    font-size: 1.1rem;
+}
+
+#section06 .text h3 {
+    color: #000;
+    font-size: 1.0rem;
+}
+
+#section06 aside {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#section06 aside .box-content {
+    width: 45%;
+}
+
 /* ------------------- Seção 08 -------------- */
 #section08 {
     padding-top: 40px;
@@ -180,6 +216,7 @@ main {
 }
 
 .perfil i {
+    color: #000;
     margin: 5px;
 }
 
