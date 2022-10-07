@@ -5,6 +5,7 @@
 
 body {
     background: #fffCE5;
+    font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -12,7 +13,44 @@ body {
     margin: 0px auto;
 }
 
+h1 {
+    color: #002D7C;
+    font-size: 1.1rem;
+}
+
+h2 {
+    color: #fff;
+}
+
+.main {
+    width: 55%;
+}
+
 .box {
     background: #707070;
-    width: 70px
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+#section01 .container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-box {
+    width: 100%;
+    height: 450px;
+}
+
+aside {
+    width: 40%;
+}
+
+.aside-box {
+    width: 100%;
+    height: 210px;
+    background: #707070;
 }
