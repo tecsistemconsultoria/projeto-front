@@ -11,12 +11,19 @@ body {
 
 h1 {
     color: #002D7C;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 
 h2 {
     color: #fff;
 }
 
+main {
+    padding-bottom: 30px;
+}
+
+/* ---------------------- Seção 01 ------------------ */
 #section01 {
     width: 100%;
 }
@@ -37,10 +44,6 @@ h2 {
     margin-top: 20px;
 }
 
-.box-content h1 {
-    font-size: 0.9rem;
-}
-
 #section01 .container {
     margin-top: 20px;
     display: flex;
@@ -57,5 +60,66 @@ h2 {
 }
 
 .aside-box h2 {
+    font-size: 1.2rem;
+}
+
+/* --------------------- Seção 03 ------------ */
+#section03 {
+    margin-top: 90px;
+}
+
+.small-box {
+    display: flex;
+}
+
+.small-box .box {
+    height: 150px;
+}
+
+.small-box h2 {
+    color: #000;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.small-box h1 {
+    margin: 0;
+}
+
+.text {
+    margin-left: 10px;
+}
+
+.text p {
+    opacity: 0.7;
+}
+
+#right h1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#right a {
+    text-decoration: none;
+}
+
+.notice-content {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.notice-content h2 {
+    color: #002D7C;
+    font-weight: bold;
+}
+
+.notice-content i {
+    color: #E4561B;
+    width: 10px;
+    margin: 0px 10px 0px 5px;
+}
+
+.notice-content h3 {
+    color: #000;
     font-size: 1.2rem;
 }
