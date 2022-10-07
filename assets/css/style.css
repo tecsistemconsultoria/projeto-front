@@ -64,7 +64,7 @@ main {
 }
 
 /* --------------------- Seção 03 ------------ */
-#section03 {
+#section03, #section05 {
     margin-top: 90px;
 }
 
@@ -122,4 +122,20 @@ main {
 .notice-content h3 {
     color: #000;
     font-size: 1.2rem;
+}
+
+/* -------------- Seção 05 ---------- */
+#section05 .row {
+    display: flex;
+    align-items: center;
+}
+
+#section05 .left {
+    margin-right: 30px;
+}
+
+#ads05 {
+    background: #B1CDFF;
+    height: 400px;
+    border-radius: 10px;
 }
