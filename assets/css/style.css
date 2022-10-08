@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "ProductSans";
+    src: url(../fonts/FontsFree-Net-ProductSans-Medium.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +11,7 @@
 
 body {
     background: #fff;
-    font-family: "Open Sans", sans-serif;
+    font-family: "ProductSans", sans-serif;
 }
 
 h1, #section11 h2 {
