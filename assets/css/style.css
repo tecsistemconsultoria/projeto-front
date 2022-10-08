@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+.container {
+    width: 90% !important;
+}
+
 main {
     padding-bottom: 30px;
 }
@@ -281,7 +285,7 @@ main {
 
 .title {
     background: #002D7C;
-    margin-left: 92px;
+    margin-left: 7%;
     margin-bottom: 30px;
 }
 
