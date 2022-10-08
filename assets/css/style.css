@@ -5,7 +5,7 @@
 }
 
 body {
-    background: #fffCE5;
+    background: #fff;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -192,10 +192,14 @@ main {
     background: #F5F5F5;
 }
 
+#colunistas {
+    max-width: 689px;
+}
+
 #colunistas, #programas {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 0px auto;
 }
 
@@ -271,9 +275,13 @@ main {
     align-items: center;
 }
 
+#section11 .title .container {
+    display: block;
+}
+
 .title {
     background: #002D7C;
-    margin-left: 7%;
+    margin-left: 92px;
     margin-bottom: 30px;
 }
 
@@ -281,7 +289,7 @@ main {
     font-size: 1.5rem;
     color: #000;
     font-weight: bolder;
-    background: #fffCE5;
+    background: #fff;
     width: fit-content;
     padding-right: 30px;
 }
